@@ -1,17 +1,26 @@
-# (Dataset Exploration Title)
-## by (your name here)
-
+# Prosper Loan Dataset Exploration
+## by Jeremy Monger
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+In this project I explored the Prosper Loan Dataset. It contains information on over 130,000 loans originating through its service.
 
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+I discovered a ton of interesting things.
+
+- Prosper went through a "quite period" where these ceased giving loans.
+- Prosper's various rating system give a good idea of risk of a borrower defaulting.
+- Higher risk borrowers pay higher interest rates.
+- Many variables have correlation with the rating systems.
+- Loan lengths were overwhelmingly 36 months.
+- Debt consolidation is the largest reason borrower's take out a loan, with "Not Specified" also being extremely common.
+- Homeowners were usually more likely to complete their loans, but not in the lead up to the Great Recession.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+The first part of my presentation focuses on explaining how Rating relates to the proportion of loans in that category that successfully complete their loans (risk) and the interest rates in that category (reward). The goal is give an overall idea of the dataset.
+
+Once this is established, I try to find my interesting discovery, that homeowners, while typically more likely to complete their loan, fared worse if they had taken out their loan right before the recession.
